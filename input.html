@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Receber informações</title>
+	</head>
+	<body>
+		<a href="index.html">INDEX</a>
+		<form action="">
+			<fieldset>
+				<legend>Seus Dados</legend>
+				Nome<br>
+				<input type="text" name="useridi" placeholder = "Digire o nome" />
+				<br>
+				Email<br>
+				<input type="password" name="psw" placeholder = "Digire o email"/>
+			</fieldset>
+			
+			<br><br>
+			<input type="submit"/>
+			<br>	
+			<input type="radio" name="gender" value="masculino" checked> Masculino<br>
+			<input type="radio" name="gender" value="feminino"> Feminino<br>
+			<input type="radio" name="gender" value="outro"> Outro<br><br>
+			<input type="checkbox" name="veiculo1" value="Moto"> Eu tenho uma moto<br>
+			<input type="checkbox" name="veiculo2" value="Carro"> Eu tenho um carro<br><br><br>
+			Informe sua data de nascimento
+			<input type="date" name="aniversario" min="1900-01-02"><br><br><br><br>
+			Selecione sua cor favorita
+			<input type="color" name="favcolor"><br><br>
+			
+			Está digitando atravez de qual sistema operacional?
+			<select name=""><option>Linux</option><option>Windows</option><option>MAC</option></select>	<br><br><br>
+		
+			<input type="file" name="arquivo" />
+			
+			
+			<input type="button" onclick="alert('Cadastrado com sucesso')" value="Cadastrar">
+		</form>
+	</body>
+</html>
